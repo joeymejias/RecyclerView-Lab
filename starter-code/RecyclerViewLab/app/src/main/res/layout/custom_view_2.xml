@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/custom_linear_layout_2">
+
+    <ImageView
+        android:id="@+id/custom_2_image_view_1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="20dp"
+        android:background="@android:color/holo_green_dark"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/custom_2_image_view_1">
+        <TextView
+            android:id="@+id/custom_2_text_view_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title text"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/custom_2_text_view_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description Text"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/custom_2_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="20dp"
+        android:enabled="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
